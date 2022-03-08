@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <div class="grid grid-cols-5 gap-4">
+    <div class="grid grid-cols-5 gap-4 p-4">
         <div class="col-span-5 bg-gray-100 rounded-lg p-4 justify-between flex items-center text-gray-600 font-bold">
             <div>
                 Dienstag. 8 März 2022 - 14:50 Uhr
@@ -12,9 +12,9 @@
 
             </div>
         </div>
-        <div class="bg-gray-100 rounded-lg p-4 py-12 col-span-2">
-            <h1 class="text-3xl font-bold text-gray-600 uppercase">Sitzungszimmer 1</h1>
-            <div class="text-9xl font-bold mt-4 text-lime-600">Frei</div>
+        <div class="bg-lime-600 rounded-lg p-4 py-12 col-span-2 ">
+            <h1 class="text-3xl font-bold text-white uppercase">Sitzungszimmer 1</h1>
+            <div class="text-9xl font-bold mt-4 text-white">Frei</div>
         </div>
         <div class="bg-gray-100 rounded-lg p-4 py-12 col-span-2">
             <h1 class="text-lg font-thin text-gray-600 uppercase">Kalender</h1>
