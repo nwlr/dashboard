@@ -41,27 +41,27 @@
         <div class="bg-gray-100 rounded-lg p-4 flex justify-center flex-col items-center">
             <div class="text-6xl font-bold mt-4 text-gray-600 ">0</div>
             <h1 class="text-lg font-thin text-gray-600 uppercase">Personen im Raum</h1>
-
+            <div class="mt-4 text-gray-600 text-sm">letzte 30 Minuten: <span class="text-lime-600">2</span></div>
         </div>
         <div class="bg-gray-100 rounded-lg p-4 flex justify-center flex-col items-center">
             <div class="text-6xl font-bold mt-4 text-lime-600 ">20°</div>
             <h1 class="text-lg font-thin text-gray-600 uppercase">Temperatur</h1>
-
+            <div class="mt-4 text-gray-600 text-sm">letzte 30 Minuten: <span class="text-lime-600">20°</span></div>
         </div>
         <div class="bg-gray-100 rounded-lg p-4 flex justify-center flex-col items-center">
             <div class="text-6xl font-bold mt-4 text-red-600">66%</div>
             <h1 class="text-lg font-thin text-gray-600 uppercase">Luftfeuchtigkeit</h1>
-
+            <div class="mt-4 text-gray-600 text-sm">letzte 30 Minuten: <span class="text-red-600">68%</span></div>
         </div>
         <div class="bg-gray-100 rounded-lg p-4 flex justify-center flex-col items-center">
             <div class="text-6xl font-bold mt-4 text-lime-600 ">1,5</div>
             <h1 class="text-lg font-thin text-gray-600 uppercase">VOC</h1>
-
+            <div class="mt-4 text-gray-600 text-sm">letzte 30 Minuten: <span class="text-lime-600">1,5</span></div>
         </div>
         <div class="bg-gray-100 rounded-lg p-4 flex justify-center flex-col items-center">
             <div class="text-6xl font-bold mt-4 text-orange-600 ">990pm</div>
             <h1 class="text-lg font-thin text-gray-600 uppercase">Co2</h1>
-
+            <div class="mt-4 text-gray-600 text-sm">letzte 30 Minuten: <span class="text-orange-600">900pm</span></div>
         </div>
 
 
