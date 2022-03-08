@@ -1,8 +1,8 @@
 <x-guest-layout>
-    <div class="grid grid-cols-5 gap-4 p-4">
+    <div class="grid grid-cols-5 gap-4">
         <div class="col-span-5 bg-gray-100 rounded-lg p-4 justify-between flex items-center text-gray-600 font-bold">
             <div>
-                Dienstag. 8 März 2022 - 14:50 Uhr
+                Dienstag 8. März 2022 - 14:50 Uhr
             </div>
             <div class="flex items-center">
             <span><x-codicon-location class="h-10 w-10" /></span>
