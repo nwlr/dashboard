@@ -16,7 +16,7 @@
             <h1 class="text-3xl font-bold text-white uppercase">Sitzungszimmer 1</h1>
             <div class="text-9xl font-bold mt-4 text-white">Frei</div>
         </div>
-        <div class="bg-gray-100 rounded-lg p-4 py-12 col-span-2">
+        <div class="border rounded-lg p-4 py-12 col-span-2">
             <h1 class="text-lg font-thin text-gray-600 uppercase">Kalender</h1>
             <div class="text-2xl font-bold mt-4 text-gray-600">15:10 Besprechnung Jürg Artho</div>
             <div class="text-2xl font-bold mt-2 text-gray-600">16:30 Testtermin</div>
