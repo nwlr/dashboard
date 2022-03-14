@@ -1,8 +1,8 @@
 <x-guest-layout>
-    <div class="grid grid-cols-5 gap-4">
+    <div class="grid grid-cols-5 gap-4 p-4">
         <div class="col-span-5 bg-gray-100 rounded-lg p-4 justify-between flex items-center text-gray-600 font-bold">
             <div>
-                Dienstag 8. März 2022 - 14:50 Uhr
+               <livewire:date />
             </div>
             <div class="flex items-center">
             <span><x-codicon-location class="h-10 w-10" /></span>
@@ -12,10 +12,7 @@
 
             </div>
         </div>
-        <div class="bg-lime-600 rounded-lg p-4 py-12 col-span-2 ">
-            <h1 class="text-3xl font-bold text-white uppercase">Sitzungszimmer 1</h1>
-            <div class="text-9xl font-bold mt-4 text-white">Frei</div>
-        </div>
+        <livewire:status />
         <div class="border rounded-lg p-4 py-12 col-span-2">
             <h1 class="text-lg font-thin text-gray-600 uppercase">Kalender</h1>
             <div class="text-2xl font-bold mt-4 text-gray-600">15:10 Besprechnung Jürg Artho</div>
@@ -38,21 +35,12 @@
             </svg>
 
         </div>
-        <div class="bg-gray-100 rounded-lg p-4 flex justify-center flex-col items-center">
-            <div class="text-6xl font-bold mt-4 text-gray-600 ">0</div>
-            <h1 class="mt-4 text-lg font-thin text-gray-600 uppercase">Personen im Raum</h1>
-            <div class="mt-2 text-gray-600 text-sm">letzte 30 Minuten: <span class="text-lime-600">2</span></div>
-        </div>
-        <div class="bg-gray-100 rounded-lg p-4 flex justify-center flex-col items-center">
-            <div class="text-6xl font-bold mt-4 text-lime-600 ">20°</div>
-            <h1 class="mt-4 text-lg font-thin text-gray-600 uppercase">Temperatur</h1>
-            <div class="mt-2 text-gray-600 text-sm">letzte 30 Minuten: <span class="text-lime-600">20°</span></div>
-        </div>
-        <div class="bg-gray-100 rounded-lg p-4 flex justify-center flex-col items-center">
-            <div class="text-6xl font-bold mt-4 text-red-600">66%</div>
-            <h1 class="mt-4 text-lg font-thin text-gray-600 uppercase">Luftfeuchtigkeit</h1>
-            <div class="mt-2 text-gray-600 text-sm">letzte 30 Minuten: <span class="text-red-600">68%</span></div>
-        </div>
+        
+        <livewire:people />
+        <livewire:temperature />
+        <livewire:humidity />
+       
+        
         <div class="bg-gray-100 rounded-lg p-4 flex justify-center flex-col items-center">
             <div class="text-6xl font-bold mt-4 text-lime-600 ">1,5</div>
             <h1 class="mt-4 text-lg font-thin text-gray-600 uppercase">VOC</h1>
