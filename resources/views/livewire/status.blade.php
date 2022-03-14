@@ -1,4 +1,4 @@
-<div class="col-span-2" wire:poll>
+<div class="col-span-2" wire:poll.5000ms>
 @if($data ==0)
 <div class="bg-lime-600 rounded-lg p-4 py-12">
     <h1 class="text-3xl font-bold text-white uppercase">Sitzungszimmer 1</h1>
